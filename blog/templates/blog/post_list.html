@@ -9,13 +9,13 @@
     </head>
     <body>
         <h1>Blog de La furie du Dragon</h1>
-    {% for post in posts %}
-        <article>
-            <br>
-            <time>Publié : {{ post.published_date }}</time>
-            <h2><a href="">{{ post.title }}</a></h2>
-            <p>{{ post.text|linebreaksbr }}</p>
-        </article>
-    {% endfor %}
+        {% for post in posts %}
+            <article>
+                <br>
+                <time>Publié : {{ post.published_date }}</time>
+                <h2><a href="">{{ post.title }}</a></h2>
+                <p>{{ post.text|linebreaksbr }}</p>
+            </article>
+        {% endfor %}
     </body>
 </html>
