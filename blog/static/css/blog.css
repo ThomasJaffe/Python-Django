@@ -1,5 +1,5 @@
 .page-header {
-    background-color: #ff6a00;
+    background-color: orangered;
     margin-top: 0;
     margin-bottom: 40px;
     padding: 20px 20px 20px 40px;
@@ -12,6 +12,16 @@
     color: #ffffff; 
     font-size: 36pt;
     text-decoration: none;
+}
+
+footer{
+    background-color: aquamarine;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    text-decoration: underline;
+    font-family: 'Courgette';
+    font-size: 15pt;
 }
 
 h1,
