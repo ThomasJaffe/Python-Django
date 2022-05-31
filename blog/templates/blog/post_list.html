@@ -5,24 +5,12 @@
     </head>
     <body>
         <h1>Blog de La furie du Dragon</h1>
-        <br>
-        <p>Quidam audire destinarentur conspiratione cuncta egentium inpendentium per invitis 
-            regiam ut cuncta inpendentium divites in latenter conspiratione habitu vilitate domus 
-            ipsa habitu intromissi quas quas vilitate vilitate observantes ut ad.</p>
-        <br>
-        <p>Labores vestri adfatim barbaricos adventans adfatim velut exsudatos exsudatos mutato 
-            pagos commeatus congestosque pagos vestri placidiora commeatus placidiora ad adfatim 
-            pagos fiducia mutato mutato placidiora ad repente pagos placidiora miretur pagos mutato 
-            fiducia quaeso commeatus miretur itinerum fiducia quaeso labores labores adfatim ductante 
-            itinerum adventans adventans repente quaeso quaeso itinerum.</p>
-        <br>
-        <p>Est hoc amicitia considerandum amicitia profecta ab verum nihil cogitanti per nihil 
-            quidquid magis quod desiderata et propter illud esset proprium et in per et est 
-            desiderata cogitanti causa profecta coluntur an dandis amicitia alia natura fictum 
-            in fictum proprium autem est se igitur quidem ab ab et nominata saepe quidquid 
-            considerandum quidem amicitia redderet se et id propter saepe id ipse autem causa id 
-            ab minus quod fictum utilitates est ipsa causa acciperet Amor nihil hoc est verum qui 
-            et qui percipiuntur iis ipsa amicitiae per causa iis atque quod igitur vicissimque ab 
-            magis ipsa natura cogitanti se benevolentiam.</p>
+    {% for post in posts %}
+        <article>
+            <time>Publié : {{ post.published_date }}</time>
+            <h2><a href="">{{ post.title }}</a></h2>
+            p>{{ post.text|linebreaksbr }}</p>
+        </article>
+    {% endfor %}
     </body>
 </html>
