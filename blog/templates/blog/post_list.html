@@ -10,7 +10,7 @@
     <body>
         <header class="page-header">
             <div class="container">
-                <h1><a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">Blog de La furie du Dragon</a></h1>
+                <h1><a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" target="_blank">Blog de La furie du Dragon</a></h1>
             </div>
         </header>
         <main class="container">
@@ -22,7 +22,7 @@
                             <time class="date">
                                 {{ post.published_date }}
                             </time>
-                            <h2><a href="">{{ post.title }}</a></h2>
+                            <h2>{{ post.title }}</a></h2>
                             <p>{{ post.text|linebreaksbr }}</p>
                         </article>
                     {% endfor %}
