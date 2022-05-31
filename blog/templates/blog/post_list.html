@@ -9,7 +9,7 @@
         <article>
             <time>Publié : {{ post.published_date }}</time>
             <h2><a href="">{{ post.title }}</a></h2>
-            {{ post.text|linebreaksbr }}</p>
+            <p>{{ post.text|linebreaksbr }}</p>
         </article>
     {% endfor %}
     </body>
