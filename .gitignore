@@ -8,6 +8,8 @@
 # Base de donnée
 db.sqlite3 
 
+/env1/
+
 # macOS
 ._*
 .DS_Store
