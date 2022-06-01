@@ -6,12 +6,6 @@ db.sqlite3
 
 /env1/
 
-# macOS
-._*
-.DS_Store
-.fseventsd
-.Spotlight-V100
-
 # Windows
 Thumbs.db*
 ehthumbs*.db
