@@ -1,10 +1,6 @@
 
 /CodePython/
 
-# Python
-*.pyc
-*~
-
 # Base de donnée
 db.sqlite3 
 
