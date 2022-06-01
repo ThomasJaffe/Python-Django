@@ -4,12 +4,6 @@
 # Python
 *.pyc
 *~
-__pycache__
-
-# Env
-.env
-myvenv/
-venv/
 
 # Base de donnée
 db.sqlite3 
