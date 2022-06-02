@@ -5,7 +5,7 @@
         <h2><a href="{% url 'post_list' %}">Nouveau Post</a></h2>
         <form method="POST" class="post-form">{% csrf_token %}
             {{ form.as_p }}
-            <button type="submit" class="save btn btn-default">Save</button>
+            <button href="{% url 'post_list' %}" type="submit" class="save btn btn-default">Save</button>
         </form>
     </div>
 {% endblock %}
