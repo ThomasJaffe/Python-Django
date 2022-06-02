@@ -72,11 +72,11 @@ h4 {
     color: #C25100;
     background: none;
     border-color: #C25100;
-    margin-left: 10px;
+    margin: 10px;
 }
 
 .btn-default:hover {
     color: #FFFFFF;
     background-color: #C25100;
-    margin-left: 10px;
+    margin: 10px;
 }
