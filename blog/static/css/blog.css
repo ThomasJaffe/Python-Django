@@ -18,6 +18,10 @@ body{
     text-decoration: none;
 }
 
+.container{
+    max-width: 90% !important;
+}
+
 footer{
     background-color: aquamarine;
     padding-top: 15px;
